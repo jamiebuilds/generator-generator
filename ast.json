@@ -1,0 +1,70 @@
+{
+  "type": "Program",
+  "body": [{
+    "type": "ExpressionStatement",
+    "expression": {
+      "type": "BinaryExpression",
+      "operator": "+",
+      "left": { "type": "Identifier", "name": "a" },
+      "right": {
+        "type": "BinaryExpression",
+        "operator": "+",
+        "left": { "type": "Identifier", "name": "b" },
+        "right": {
+          "type": "BinaryExpression",
+          "operator": "+",
+          "left": { "type": "Identifier", "name": "c" },
+          "right": {
+            "type": "BinaryExpression",
+            "operator": "+",
+            "left": { "type": "Identifier", "name": "d" },
+            "right": {
+              "type": "BinaryExpression",
+              "operator": "+",
+              "left": { "type": "Identifier", "name": "e" },
+              "right": {
+                "type": "BinaryExpression",
+                "operator": "+",
+                "left": { "type": "Identifier", "name": "e" },
+                "right": { "type": "Identifier", "name": "f" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }, {
+    "type": "ExpressionStatement",
+    "expression": {
+      "type": "BinaryExpression",
+      "operator": "+",
+      "left": { "type": "Identifier", "name": "g" },
+      "right": {
+        "type": "BinaryExpression",
+        "operator": "+",
+        "left": { "type": "Identifier", "name": "h" },
+        "right": {
+          "type": "BinaryExpression",
+          "operator": "+",
+          "left": { "type": "Identifier", "name": "i" },
+          "right": {
+            "type": "BinaryExpression",
+            "operator": "+",
+            "left": { "type": "Identifier", "name": "j" },
+            "right": {
+              "type": "BinaryExpression",
+              "operator": "+",
+              "left": { "type": "Identifier", "name": "k" },
+              "right": {
+                "type": "BinaryExpression",
+                "operator": "+",
+                "left": { "type": "Identifier", "name": "l" },
+                "right": { "type": "Identifier", "name": "m" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }]
+}
